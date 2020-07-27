@@ -1,0 +1,1242 @@
+./log_pretrain//
+('Kitti preloaded =', True)
+Preloaded model:  True
+Creating model ... 
+Squeezeseg: Init
+Batch:  4
+Model Skeleton called
+Did I get here - Model Skeleton
+Model Skeleton Batch size:  4
+Adding forward graph
+Shape of the pretrained parameter of conv1 does not match, use randomly initialized parameter
+Cannot find conv1_skip in the pretrained model. Use randomly initialized parameters
+Cannot find fire_deconv10/squeeze1x1 in the pretrained model. Use randomly initialized parameters
+Cannot find fire_deconv10/expand1x1 in the pretrained model. Use randomly initialized parameters
+Cannot find fire_deconv10/expand3x3 in the pretrained model. Use randomly initialized parameters
+Cannot find fire_deconv11/squeeze1x1 in the pretrained model. Use randomly initialized parameters
+Cannot find fire_deconv11/expand1x1 in the pretrained model. Use randomly initialized parameters
+Cannot find fire_deconv11/expand3x3 in the pretrained model. Use randomly initialized parameters
+Cannot find fire_deconv12/squeeze1x1 in the pretrained model. Use randomly initialized parameters
+Cannot find fire_deconv12/expand1x1 in the pretrained model. Use randomly initialized parameters
+Cannot find fire_deconv12/expand3x3 in the pretrained model. Use randomly initialized parameters
+Cannot find fire_deconv13/squeeze1x1 in the pretrained model. Use randomly initialized parameters
+Cannot find fire_deconv13/expand1x1 in the pretrained model. Use randomly initialized parameters
+Cannot find fire_deconv13/expand3x3 in the pretrained model. Use randomly initialized parameters
+Cannot find conv14_prob in the pretrained model. Use randomly initialized parameters
+Complete
+model created
+Model statistics saved to ./log_pretrain///train/model_metrics.txt.
+Starting step 0
+Running Session
+Completed Session
+2020-07-25 03:04:50.231174: step 0, loss = 2.33 (0.9 images/sec; 4.353 sec/batch)
+Saving checkpoint
+Checkpoint saved at ./log_pretrain///train/model.ckpt
+Starting step 1
+Running Session
+Completed Session
+2020-07-25 03:04:52.966335: step 1, loss = 2.43 (1.8 images/sec; 2.202 sec/batch)
+Starting step 2
+Running Session
+Completed Session
+2020-07-25 03:04:55.068524: step 2, loss = 2.22 (1.9 images/sec; 2.102 sec/batch)
+Starting step 3
+Running Session
+Completed Session
+2020-07-25 03:04:57.097118: step 3, loss = 2.43 (2.0 images/sec; 2.028 sec/batch)
+Starting step 4
+Running Session
+Completed Session
+2020-07-25 03:04:58.944588: step 4, loss = 2.22 (2.2 images/sec; 1.847 sec/batch)
+Starting step 5
+Running Session
+Completed Session
+2020-07-25 03:05:00.849976: step 5, loss = 2.29 (2.1 images/sec; 1.905 sec/batch)
+Starting step 6
+Running Session
+Completed Session
+2020-07-25 03:05:02.720732: step 6, loss = 1.98 (2.1 images/sec; 1.870 sec/batch)
+Starting step 7
+Running Session
+Completed Session
+2020-07-25 03:05:04.702020: step 7, loss = 2.14 (2.0 images/sec; 1.981 sec/batch)
+Starting step 8
+Running Session
+Completed Session
+2020-07-25 03:05:06.666373: step 8, loss = 2.00 (2.0 images/sec; 1.964 sec/batch)
+Starting step 9
+Running Session
+Completed Session
+2020-07-25 03:05:08.759618: step 9, loss = 1.76 (1.9 images/sec; 2.093 sec/batch)
+Starting step 10
+Running Session
+Completed Session
+2020-07-25 03:05:10.843539: step 10, loss = 1.66 (1.9 images/sec; 2.084 sec/batch)
+Starting step 11
+Running Session
+Completed Session
+2020-07-25 03:05:13.288578: step 11, loss = 1.47 (1.6 images/sec; 2.445 sec/batch)
+Starting step 12
+Running Session
+Completed Session
+2020-07-25 03:05:15.299613: step 12, loss = 1.56 (2.0 images/sec; 2.011 sec/batch)
+Starting step 13
+Running Session
+Completed Session
+2020-07-25 03:05:17.346581: step 13, loss = 1.08 (2.0 images/sec; 2.047 sec/batch)
+Starting step 14
+Running Session
+Completed Session
+2020-07-25 03:05:19.555074: step 14, loss = 1.40 (1.8 images/sec; 2.208 sec/batch)
+Starting step 15
+Running Session
+Completed Session
+2020-07-25 03:05:21.629213: step 15, loss = 1.12 (1.9 images/sec; 2.074 sec/batch)
+Starting step 16
+Running Session
+Completed Session
+2020-07-25 03:05:23.688176: step 16, loss = 1.25 (1.9 images/sec; 2.059 sec/batch)
+Starting step 17
+Running Session
+Completed Session
+2020-07-25 03:05:26.252302: step 17, loss = 0.92 (1.6 images/sec; 2.564 sec/batch)
+Starting step 18
+Running Session
+Completed Session
+2020-07-25 03:05:28.946799: step 18, loss = 1.06 (1.5 images/sec; 2.694 sec/batch)
+Starting step 19
+Running Session
+Completed Session
+2020-07-25 03:05:31.332982: step 19, loss = 1.37 (1.7 images/sec; 2.386 sec/batch)
+Starting step 20
+Running Session
+Completed Session
+2020-07-25 03:05:33.801070: step 20, loss = 1.25 (1.6 images/sec; 2.467 sec/batch)
+Starting step 21
+Running Session
+Completed Session
+2020-07-25 03:05:36.271595: step 21, loss = 1.08 (1.6 images/sec; 2.470 sec/batch)
+Starting step 22
+Running Session
+Completed Session
+2020-07-25 03:05:38.716427: step 22, loss = 0.88 (1.6 images/sec; 2.445 sec/batch)
+Starting step 23
+Running Session
+Completed Session
+2020-07-25 03:05:40.973668: step 23, loss = 1.17 (1.8 images/sec; 2.256 sec/batch)
+Starting step 24
+Running Session
+Completed Session
+2020-07-25 03:05:43.016452: step 24, loss = 1.02 (2.0 images/sec; 2.042 sec/batch)
+Starting step 25
+Running Session
+Completed Session
+2020-07-25 03:05:45.129255: step 25, loss = 1.09 (1.9 images/sec; 2.112 sec/batch)
+Starting step 26
+Running Session
+Completed Session
+2020-07-25 03:05:47.503719: step 26, loss = 1.03 (1.7 images/sec; 2.374 sec/batch)
+Starting step 27
+Running Session
+Completed Session
+2020-07-25 03:05:49.769057: step 27, loss = 1.03 (1.8 images/sec; 2.265 sec/batch)
+Starting step 28
+Running Session
+Completed Session
+2020-07-25 03:05:51.963394: step 28, loss = 1.11 (1.8 images/sec; 2.194 sec/batch)
+Starting step 29
+Running Session
+Completed Session
+2020-07-25 03:05:54.398922: step 29, loss = 1.08 (1.6 images/sec; 2.435 sec/batch)
+Starting step 30
+Running Session
+Completed Session
+2020-07-25 03:05:56.855866: step 30, loss = 0.92 (1.6 images/sec; 2.457 sec/batch)
+Starting step 31
+Running Session
+Completed Session
+2020-07-25 03:05:59.040513: step 31, loss = 1.05 (1.8 images/sec; 2.184 sec/batch)
+Starting step 32
+Running Session
+Completed Session
+2020-07-25 03:06:01.216099: step 32, loss = 0.79 (1.8 images/sec; 2.175 sec/batch)
+Starting step 33
+Running Session
+Completed Session
+2020-07-25 03:06:03.608404: step 33, loss = 0.90 (1.7 images/sec; 2.392 sec/batch)
+Starting step 34
+Running Session
+Completed Session
+2020-07-25 03:06:05.793079: step 34, loss = 0.97 (1.8 images/sec; 2.184 sec/batch)
+Starting step 35
+Running Session
+Completed Session
+2020-07-25 03:06:07.934153: step 35, loss = 1.03 (1.9 images/sec; 2.141 sec/batch)
+Starting step 36
+Running Session
+Completed Session
+2020-07-25 03:06:10.181900: step 36, loss = 0.99 (1.8 images/sec; 2.247 sec/batch)
+Starting step 37
+Running Session
+Completed Session
+2020-07-25 03:06:12.342056: step 37, loss = 0.91 (1.9 images/sec; 2.160 sec/batch)
+Starting step 38
+Running Session
+Completed Session
+2020-07-25 03:06:14.434694: step 38, loss = 1.03 (1.9 images/sec; 2.092 sec/batch)
+Starting step 39
+Running Session
+Completed Session
+2020-07-25 03:06:16.722808: step 39, loss = 0.95 (1.7 images/sec; 2.288 sec/batch)
+Starting step 40
+Running Session
+Completed Session
+2020-07-25 03:06:18.927636: step 40, loss = 0.95 (1.8 images/sec; 2.204 sec/batch)
+Starting step 41
+Running Session
+Completed Session
+2020-07-25 03:06:21.166968: step 41, loss = 0.97 (1.8 images/sec; 2.239 sec/batch)
+Starting step 42
+Running Session
+Completed Session
+2020-07-25 03:06:23.569814: step 42, loss = 0.93 (1.7 images/sec; 2.402 sec/batch)
+Starting step 43
+Running Session
+Completed Session
+2020-07-25 03:06:25.765793: step 43, loss = 0.90 (1.8 images/sec; 2.196 sec/batch)
+Starting step 44
+Running Session
+Completed Session
+2020-07-25 03:06:27.971819: step 44, loss = 0.83 (1.8 images/sec; 2.206 sec/batch)
+Starting step 45
+Running Session
+Completed Session
+2020-07-25 03:06:30.092458: step 45, loss = 0.89 (1.9 images/sec; 2.120 sec/batch)
+Starting step 46
+Running Session
+Completed Session
+2020-07-25 03:06:32.494333: step 46, loss = 0.94 (1.7 images/sec; 2.402 sec/batch)
+Starting step 47
+Running Session
+Completed Session
+2020-07-25 03:06:34.799497: step 47, loss = 0.85 (1.7 images/sec; 2.305 sec/batch)
+Starting step 48
+Running Session
+Completed Session
+2020-07-25 03:06:37.011567: step 48, loss = 1.01 (1.8 images/sec; 2.212 sec/batch)
+Starting step 49
+Running Session
+Completed Session
+2020-07-25 03:06:39.190007: step 49, loss = 1.02 (1.8 images/sec; 2.178 sec/batch)
+Starting step 50
+Running Session
+Completed Session
+2020-07-25 03:06:41.474480: step 50, loss = 0.92 (1.8 images/sec; 2.284 sec/batch)
+Saving checkpoint
+Checkpoint saved at ./log_pretrain///train/model.ckpt
+Starting step 51
+Running Session
+Completed Session
+2020-07-25 03:06:43.905518: step 51, loss = 0.94 (1.9 images/sec; 2.079 sec/batch)
+Starting step 52
+Running Session
+Completed Session
+2020-07-25 03:06:46.128664: step 52, loss = 0.95 (1.8 images/sec; 2.223 sec/batch)
+Starting step 53
+Running Session
+Completed Session
+2020-07-25 03:06:48.498053: step 53, loss = 0.95 (1.7 images/sec; 2.369 sec/batch)
+Starting step 54
+Running Session
+Completed Session
+2020-07-25 03:06:50.784066: step 54, loss = 0.89 (1.8 images/sec; 2.286 sec/batch)
+Starting step 55
+Running Session
+Completed Session
+2020-07-25 03:06:53.457265: step 55, loss = 0.92 (1.5 images/sec; 2.673 sec/batch)
+Starting step 56
+Running Session
+Completed Session
+2020-07-25 03:06:55.746745: step 56, loss = 0.93 (1.7 images/sec; 2.289 sec/batch)
+Starting step 57
+Running Session
+Completed Session
+2020-07-25 03:06:57.856419: step 57, loss = 0.85 (1.9 images/sec; 2.109 sec/batch)
+Starting step 58
+Running Session
+Completed Session
+2020-07-25 03:07:00.150058: step 58, loss = 0.89 (1.7 images/sec; 2.293 sec/batch)
+Starting step 59
+Running Session
+Completed Session
+2020-07-25 03:07:02.519863: step 59, loss = 0.84 (1.7 images/sec; 2.369 sec/batch)
+Starting step 60
+Running Session
+Completed Session
+2020-07-25 03:07:04.641331: step 60, loss = 0.89 (1.9 images/sec; 2.121 sec/batch)
+Starting step 61
+Running Session
+Completed Session
+2020-07-25 03:07:06.715668: step 61, loss = 0.81 (1.9 images/sec; 2.074 sec/batch)
+Starting step 62
+Running Session
+Completed Session
+2020-07-25 03:07:08.793277: step 62, loss = 0.83 (1.9 images/sec; 2.077 sec/batch)
+Starting step 63
+Running Session
+Completed Session
+2020-07-25 03:07:10.887999: step 63, loss = 0.87 (1.9 images/sec; 2.094 sec/batch)
+Starting step 64
+Running Session
+Completed Session
+2020-07-25 03:07:13.165638: step 64, loss = 0.71 (1.8 images/sec; 2.277 sec/batch)
+Starting step 65
+Running Session
+Completed Session
+2020-07-25 03:07:15.605556: step 65, loss = 0.93 (1.6 images/sec; 2.440 sec/batch)
+Starting step 66
+Running Session
+Completed Session
+2020-07-25 03:07:17.968487: step 66, loss = 0.75 (1.7 images/sec; 2.363 sec/batch)
+Starting step 67
+Running Session
+Completed Session
+2020-07-25 03:07:20.351467: step 67, loss = 0.85 (1.7 images/sec; 2.383 sec/batch)
+Starting step 68
+Running Session
+Completed Session
+2020-07-25 03:07:22.365772: step 68, loss = 0.81 (2.0 images/sec; 2.014 sec/batch)
+Starting step 69
+Running Session
+Completed Session
+2020-07-25 03:07:24.792587: step 69, loss = 0.76 (1.6 images/sec; 2.426 sec/batch)
+Starting step 70
+Running Session
+Completed Session
+2020-07-25 03:07:26.865984: step 70, loss = 0.97 (1.9 images/sec; 2.073 sec/batch)
+Starting step 71
+Running Session
+Completed Session
+2020-07-25 03:07:28.896339: step 71, loss = 0.90 (2.0 images/sec; 2.030 sec/batch)
+Starting step 72
+Running Session
+Completed Session
+2020-07-25 03:07:31.073274: step 72, loss = 1.00 (1.8 images/sec; 2.177 sec/batch)
+Starting step 73
+Running Session
+Completed Session
+2020-07-25 03:07:33.357495: step 73, loss = 0.79 (1.8 images/sec; 2.284 sec/batch)
+Starting step 74
+Running Session
+Completed Session
+2020-07-25 03:07:35.517000: step 74, loss = 0.87 (1.9 images/sec; 2.159 sec/batch)
+Starting step 75
+Running Session
+Completed Session
+2020-07-25 03:07:37.633220: step 75, loss = 0.77 (1.9 images/sec; 2.116 sec/batch)
+Starting step 76
+Running Session
+Completed Session
+2020-07-25 03:07:39.775358: step 76, loss = 0.80 (1.9 images/sec; 2.142 sec/batch)
+Starting step 77
+Running Session
+Completed Session
+2020-07-25 03:07:42.040288: step 77, loss = 0.88 (1.8 images/sec; 2.265 sec/batch)
+Starting step 78
+Running Session
+Completed Session
+2020-07-25 03:07:44.399223: step 78, loss = 0.79 (1.7 images/sec; 2.359 sec/batch)
+Starting step 79
+Running Session
+Completed Session
+2020-07-25 03:07:46.679960: step 79, loss = 0.84 (1.8 images/sec; 2.280 sec/batch)
+Starting step 80
+Running Session
+Completed Session
+2020-07-25 03:07:48.823542: step 80, loss = 0.90 (1.9 images/sec; 2.143 sec/batch)
+Starting step 81
+Running Session
+Completed Session
+2020-07-25 03:07:51.406011: step 81, loss = 0.72 (1.5 images/sec; 2.582 sec/batch)
+Starting step 82
+Running Session
+Completed Session
+2020-07-25 03:07:53.854807: step 82, loss = 0.80 (1.6 images/sec; 2.448 sec/batch)
+Starting step 83
+Running Session
+Completed Session
+2020-07-25 03:07:56.047435: step 83, loss = 0.81 (1.8 images/sec; 2.192 sec/batch)
+Starting step 84
+Running Session
+Completed Session
+2020-07-25 03:07:58.419309: step 84, loss = 0.80 (1.7 images/sec; 2.372 sec/batch)
+Starting step 85
+Running Session
+Completed Session
+2020-07-25 03:08:00.625185: step 85, loss = 0.82 (1.8 images/sec; 2.206 sec/batch)
+Starting step 86
+Running Session
+Completed Session
+2020-07-25 03:08:02.958328: step 86, loss = 0.82 (1.7 images/sec; 2.333 sec/batch)
+Starting step 87
+Running Session
+Completed Session
+2020-07-25 03:08:05.129751: step 87, loss = 0.72 (1.8 images/sec; 2.171 sec/batch)
+Starting step 88
+Running Session
+Completed Session
+2020-07-25 03:08:07.408423: step 88, loss = 0.79 (1.8 images/sec; 2.278 sec/batch)
+Starting step 89
+Running Session
+Completed Session
+2020-07-25 03:08:09.757136: step 89, loss = 0.75 (1.7 images/sec; 2.348 sec/batch)
+Starting step 90
+Running Session
+Completed Session
+2020-07-25 03:08:11.836722: step 90, loss = 0.79 (1.9 images/sec; 2.079 sec/batch)
+Starting step 91
+Running Session
+Completed Session
+2020-07-25 03:08:14.008079: step 91, loss = 0.70 (1.8 images/sec; 2.171 sec/batch)
+Starting step 92
+Running Session
+Completed Session
+2020-07-25 03:08:16.506010: step 92, loss = 0.76 (1.6 images/sec; 2.498 sec/batch)
+Starting step 93
+Running Session
+Completed Session
+2020-07-25 03:08:18.822307: step 93, loss = 0.72 (1.7 images/sec; 2.316 sec/batch)
+Starting step 94
+Running Session
+Completed Session
+2020-07-25 03:08:21.228459: step 94, loss = 0.72 (1.7 images/sec; 2.406 sec/batch)
+Starting step 95
+Running Session
+Completed Session
+2020-07-25 03:08:23.910580: step 95, loss = 0.76 (1.5 images/sec; 2.682 sec/batch)
+Starting step 96
+Running Session
+Completed Session
+2020-07-25 03:08:26.453728: step 96, loss = 0.75 (1.6 images/sec; 2.543 sec/batch)
+Starting step 97
+Running Session
+Completed Session
+2020-07-25 03:08:28.682524: step 97, loss = 0.75 (1.8 images/sec; 2.228 sec/batch)
+Starting step 98
+Running Session
+Completed Session
+2020-07-25 03:08:31.235468: step 98, loss = 0.73 (1.6 images/sec; 2.552 sec/batch)
+Starting step 99
+Running Session
+Completed Session
+2020-07-25 03:08:33.567750: step 99, loss = 0.74 (1.7 images/sec; 2.332 sec/batch)
+Starting step 100
+Running Session
+Completed Session
+2020-07-25 03:08:35.899383: step 100, loss = 0.73 (1.7 images/sec; 2.331 sec/batch)
+Saving checkpoint
+Checkpoint saved at ./log_pretrain///train/model.ckpt
+Starting step 101
+Running Session
+Completed Session
+2020-07-25 03:08:38.938675: step 101, loss = 0.67 (1.6 images/sec; 2.546 sec/batch)
+Starting step 102
+Running Session
+Completed Session
+2020-07-25 03:08:41.444540: step 102, loss = 0.72 (1.6 images/sec; 2.505 sec/batch)
+Starting step 103
+Running Session
+Completed Session
+2020-07-25 03:08:43.922389: step 103, loss = 0.68 (1.6 images/sec; 2.477 sec/batch)
+Starting step 104
+Running Session
+Completed Session
+2020-07-25 03:08:47.092512: step 104, loss = 0.73 (1.3 images/sec; 3.170 sec/batch)
+Starting step 105
+Running Session
+Completed Session
+2020-07-25 03:08:49.518513: step 105, loss = 0.87 (1.6 images/sec; 2.425 sec/batch)
+Starting step 106
+Running Session
+Completed Session
+2020-07-25 03:08:51.837645: step 106, loss = 0.70 (1.7 images/sec; 2.319 sec/batch)
+Starting step 107
+Running Session
+Completed Session
+2020-07-25 03:08:54.175272: step 107, loss = 0.82 (1.7 images/sec; 2.337 sec/batch)
+Starting step 108
+Running Session
+Completed Session
+2020-07-25 03:08:56.486902: step 108, loss = 0.63 (1.7 images/sec; 2.311 sec/batch)
+Starting step 109
+Running Session
+Completed Session
+2020-07-25 03:08:59.054300: step 109, loss = 0.86 (1.6 images/sec; 2.567 sec/batch)
+Starting step 110
+Running Session
+Completed Session
+2020-07-25 03:09:01.188089: step 110, loss = 0.68 (1.9 images/sec; 2.133 sec/batch)
+Starting step 111
+Running Session
+Completed Session
+2020-07-25 03:09:03.752882: step 111, loss = 0.68 (1.6 images/sec; 2.564 sec/batch)
+Starting step 112
+Running Session
+Completed Session
+2020-07-25 03:09:06.132870: step 112, loss = 0.70 (1.7 images/sec; 2.379 sec/batch)
+Starting step 113
+Running Session
+Completed Session
+2020-07-25 03:09:08.676483: step 113, loss = 0.75 (1.6 images/sec; 2.543 sec/batch)
+Starting step 114
+Running Session
+Completed Session
+2020-07-25 03:09:10.958659: step 114, loss = 0.60 (1.8 images/sec; 2.282 sec/batch)
+Starting step 115
+Running Session
+Completed Session
+2020-07-25 03:09:13.248194: step 115, loss = 0.73 (1.7 images/sec; 2.289 sec/batch)
+Starting step 116
+Running Session
+Completed Session
+2020-07-25 03:09:15.813235: step 116, loss = 0.83 (1.6 images/sec; 2.565 sec/batch)
+Starting step 117
+Running Session
+Completed Session
+2020-07-25 03:09:18.098004: step 117, loss = 0.62 (1.8 images/sec; 2.284 sec/batch)
+Starting step 118
+Running Session
+Completed Session
+2020-07-25 03:09:20.438891: step 118, loss = 0.63 (1.7 images/sec; 2.341 sec/batch)
+Starting step 119
+Running Session
+Completed Session
+2020-07-25 03:09:22.683006: step 119, loss = 0.74 (1.8 images/sec; 2.244 sec/batch)
+Starting step 120
+Running Session
+Completed Session
+2020-07-25 03:09:24.760220: step 120, loss = 0.59 (1.9 images/sec; 2.077 sec/batch)
+Starting step 121
+Running Session
+Completed Session
+2020-07-25 03:09:26.868250: step 121, loss = 0.70 (1.9 images/sec; 2.108 sec/batch)
+Starting step 122
+Running Session
+Completed Session
+2020-07-25 03:09:29.185289: step 122, loss = 0.61 (1.7 images/sec; 2.317 sec/batch)
+Starting step 123
+Running Session
+Completed Session
+2020-07-25 03:09:31.405395: step 123, loss = 0.64 (1.8 images/sec; 2.220 sec/batch)
+Starting step 124
+Running Session
+Completed Session
+2020-07-25 03:09:33.727029: step 124, loss = 0.58 (1.7 images/sec; 2.321 sec/batch)
+Starting step 125
+Running Session
+Completed Session
+2020-07-25 03:09:36.291409: step 125, loss = 0.62 (1.6 images/sec; 2.564 sec/batch)
+Starting step 126
+Running Session
+Completed Session
+2020-07-25 03:09:38.474515: step 126, loss = 0.59 (1.8 images/sec; 2.183 sec/batch)
+Starting step 127
+Running Session
+Completed Session
+2020-07-25 03:09:40.515894: step 127, loss = 0.52 (2.0 images/sec; 2.041 sec/batch)
+Starting step 128
+Running Session
+Completed Session
+2020-07-25 03:09:42.806473: step 128, loss = 0.62 (1.7 images/sec; 2.290 sec/batch)
+Starting step 129
+Running Session
+Completed Session
+2020-07-25 03:09:45.003541: step 129, loss = 0.57 (1.8 images/sec; 2.197 sec/batch)
+Starting step 130
+Running Session
+Completed Session
+2020-07-25 03:09:47.243801: step 130, loss = 0.62 (1.8 images/sec; 2.240 sec/batch)
+Starting step 131
+Running Session
+Completed Session
+2020-07-25 03:09:49.404995: step 131, loss = 0.51 (1.9 images/sec; 2.161 sec/batch)
+Starting step 132
+Running Session
+Completed Session
+2020-07-25 03:09:51.662685: step 132, loss = 0.50 (1.8 images/sec; 2.257 sec/batch)
+Starting step 133
+Running Session
+Completed Session
+2020-07-25 03:09:54.060152: step 133, loss = 0.57 (1.7 images/sec; 2.397 sec/batch)
+Starting step 134
+Running Session
+Completed Session
+2020-07-25 03:09:56.332204: step 134, loss = 0.51 (1.8 images/sec; 2.272 sec/batch)
+Starting step 135
+Running Session
+Completed Session
+2020-07-25 03:09:58.645251: step 135, loss = 0.57 (1.7 images/sec; 2.313 sec/batch)
+Starting step 136
+Running Session
+Completed Session
+2020-07-25 03:10:00.824914: step 136, loss = 0.50 (1.8 images/sec; 2.179 sec/batch)
+Starting step 137
+Running Session
+Completed Session
+2020-07-25 03:10:03.085686: step 137, loss = 0.48 (1.8 images/sec; 2.260 sec/batch)
+Starting step 138
+Running Session
+Completed Session
+2020-07-25 03:10:05.373345: step 138, loss = 0.63 (1.7 images/sec; 2.287 sec/batch)
+Starting step 139
+Running Session
+Completed Session
+2020-07-25 03:10:07.298689: step 139, loss = 0.50 (2.1 images/sec; 1.925 sec/batch)
+Starting step 140
+Running Session
+Completed Session
+2020-07-25 03:10:09.327360: step 140, loss = 0.51 (2.0 images/sec; 2.028 sec/batch)
+Starting step 141
+Running Session
+Completed Session
+2020-07-25 03:10:11.361503: step 141, loss = 0.55 (2.0 images/sec; 2.034 sec/batch)
+Starting step 142
+Running Session
+Completed Session
+2020-07-25 03:10:13.547126: step 142, loss = 0.46 (1.8 images/sec; 2.185 sec/batch)
+Starting step 143
+Running Session
+Completed Session
+2020-07-25 03:10:15.681359: step 143, loss = 0.50 (1.9 images/sec; 2.134 sec/batch)
+Starting step 144
+Running Session
+Completed Session
+2020-07-25 03:10:17.762423: step 144, loss = 0.47 (1.9 images/sec; 2.081 sec/batch)
+Starting step 145
+Running Session
+Completed Session
+2020-07-25 03:10:19.881975: step 145, loss = 0.51 (1.9 images/sec; 2.119 sec/batch)
+Starting step 146
+Running Session
+Completed Session
+2020-07-25 03:10:22.030558: step 146, loss = 0.43 (1.9 images/sec; 2.148 sec/batch)
+Starting step 147
+Running Session
+Completed Session
+2020-07-25 03:10:23.979226: step 147, loss = 0.52 (2.1 images/sec; 1.948 sec/batch)
+Starting step 148
+Running Session
+Completed Session
+2020-07-25 03:10:25.944448: step 148, loss = 0.71 (2.0 images/sec; 1.965 sec/batch)
+Starting step 149
+Running Session
+Completed Session
+2020-07-25 03:10:28.122204: step 149, loss = 0.45 (1.8 images/sec; 2.177 sec/batch)
+Starting step 150
+Running Session
+Completed Session
+2020-07-25 03:10:30.419114: step 150, loss = 0.39 (1.7 images/sec; 2.297 sec/batch)
+Saving checkpoint
+Checkpoint saved at ./log_pretrain///train/model.ckpt
+Starting step 151
+Running Session
+Completed Session
+2020-07-25 03:10:32.886882: step 151, loss = 0.43 (1.9 images/sec; 2.123 sec/batch)
+Starting step 152
+Running Session
+Completed Session
+2020-07-25 03:10:34.952204: step 152, loss = 0.43 (1.9 images/sec; 2.065 sec/batch)
+Starting step 153
+Running Session
+Completed Session
+2020-07-25 03:10:37.512574: step 153, loss = 0.46 (1.6 images/sec; 2.560 sec/batch)
+Starting step 154
+Running Session
+Completed Session
+2020-07-25 03:10:39.754826: step 154, loss = 0.40 (1.8 images/sec; 2.242 sec/batch)
+Starting step 155
+Running Session
+Completed Session
+2020-07-25 03:10:42.078581: step 155, loss = 0.45 (1.7 images/sec; 2.323 sec/batch)
+Starting step 156
+Running Session
+Completed Session
+2020-07-25 03:10:44.407046: step 156, loss = 0.35 (1.7 images/sec; 2.328 sec/batch)
+Starting step 157
+Running Session
+Completed Session
+2020-07-25 03:10:46.899162: step 157, loss = 0.40 (1.6 images/sec; 2.492 sec/batch)
+Starting step 158
+Running Session
+Completed Session
+2020-07-25 03:10:49.068740: step 158, loss = 0.38 (1.8 images/sec; 2.169 sec/batch)
+Starting step 159
+Running Session
+Completed Session
+2020-07-25 03:10:51.262239: step 159, loss = 0.59 (1.8 images/sec; 2.193 sec/batch)
+Starting step 160
+Running Session
+Completed Session
+2020-07-25 03:10:53.550928: step 160, loss = 0.47 (1.7 images/sec; 2.288 sec/batch)
+Starting step 161
+Running Session
+Completed Session
+2020-07-25 03:10:55.619407: step 161, loss = 0.37 (1.9 images/sec; 2.068 sec/batch)
+Starting step 162
+Running Session
+Completed Session
+2020-07-25 03:10:57.787820: step 162, loss = 0.45 (1.8 images/sec; 2.168 sec/batch)
+Starting step 163
+Running Session
+Completed Session
+2020-07-25 03:10:59.969564: step 163, loss = 0.45 (1.8 images/sec; 2.181 sec/batch)
+Starting step 164
+Running Session
+Completed Session
+2020-07-25 03:11:02.332410: step 164, loss = 0.46 (1.7 images/sec; 2.362 sec/batch)
+Starting step 165
+Running Session
+Completed Session
+2020-07-25 03:11:04.376062: step 165, loss = 0.41 (2.0 images/sec; 2.043 sec/batch)
+Starting step 166
+Running Session
+Completed Session
+2020-07-25 03:11:06.501178: step 166, loss = 0.57 (1.9 images/sec; 2.125 sec/batch)
+Starting step 167
+Running Session
+Completed Session
+2020-07-25 03:11:08.715621: step 167, loss = 0.40 (1.8 images/sec; 2.214 sec/batch)
+Starting step 168
+Running Session
+Completed Session
+2020-07-25 03:11:11.151693: step 168, loss = 0.53 (1.6 images/sec; 2.436 sec/batch)
+Starting step 169
+Running Session
+Completed Session
+2020-07-25 03:11:13.189505: step 169, loss = 0.48 (2.0 images/sec; 2.037 sec/batch)
+Starting step 170
+Running Session
+Completed Session
+2020-07-25 03:11:15.300182: step 170, loss = 0.36 (1.9 images/sec; 2.110 sec/batch)
+Starting step 171
+Running Session
+Completed Session
+2020-07-25 03:11:17.510124: step 171, loss = 0.60 (1.8 images/sec; 2.210 sec/batch)
+Starting step 172
+Running Session
+Completed Session
+2020-07-25 03:11:19.537509: step 172, loss = 0.42 (2.0 images/sec; 2.027 sec/batch)
+Starting step 173
+Running Session
+Completed Session
+2020-07-25 03:11:21.959203: step 173, loss = 0.44 (1.7 images/sec; 2.421 sec/batch)
+Starting step 174
+Running Session
+Completed Session
+2020-07-25 03:11:24.277206: step 174, loss = 0.43 (1.7 images/sec; 2.318 sec/batch)
+Starting step 175
+Running Session
+Completed Session
+2020-07-25 03:11:26.567270: step 175, loss = 0.38 (1.7 images/sec; 2.290 sec/batch)
+Starting step 176
+Running Session
+Completed Session
+2020-07-25 03:11:28.888437: step 176, loss = 0.45 (1.7 images/sec; 2.321 sec/batch)
+Starting step 177
+Running Session
+Completed Session
+2020-07-25 03:11:30.945967: step 177, loss = 0.39 (1.9 images/sec; 2.057 sec/batch)
+Starting step 178
+Running Session
+Completed Session
+2020-07-25 03:11:33.069723: step 178, loss = 0.45 (1.9 images/sec; 2.123 sec/batch)
+Starting step 179
+Running Session
+Completed Session
+2020-07-25 03:11:35.320259: step 179, loss = 0.41 (1.8 images/sec; 2.250 sec/batch)
+Starting step 180
+Running Session
+Completed Session
+2020-07-25 03:11:37.552509: step 180, loss = 0.37 (1.8 images/sec; 2.232 sec/batch)
+Starting step 181
+Running Session
+Completed Session
+2020-07-25 03:11:39.669710: step 181, loss = 0.37 (1.9 images/sec; 2.117 sec/batch)
+Starting step 182
+Running Session
+Completed Session
+2020-07-25 03:11:41.834763: step 182, loss = 0.39 (1.8 images/sec; 2.165 sec/batch)
+Starting step 183
+Running Session
+Completed Session
+2020-07-25 03:11:43.994637: step 183, loss = 0.39 (1.9 images/sec; 2.160 sec/batch)
+Starting step 184
+Running Session
+Completed Session
+2020-07-25 03:11:46.291864: step 184, loss = 0.35 (1.7 images/sec; 2.297 sec/batch)
+Starting step 185
+Running Session
+Completed Session
+2020-07-25 03:11:48.405983: step 185, loss = 0.43 (1.9 images/sec; 2.114 sec/batch)
+Starting step 186
+Running Session
+Completed Session
+2020-07-25 03:11:50.672794: step 186, loss = 0.38 (1.8 images/sec; 2.266 sec/batch)
+Starting step 187
+Running Session
+Completed Session
+2020-07-25 03:11:53.078156: step 187, loss = 0.35 (1.7 images/sec; 2.405 sec/batch)
+Starting step 188
+Running Session
+Completed Session
+2020-07-25 03:11:55.275499: step 188, loss = 0.33 (1.8 images/sec; 2.197 sec/batch)
+Starting step 189
+Running Session
+Completed Session
+2020-07-25 03:11:57.693424: step 189, loss = 0.38 (1.7 images/sec; 2.418 sec/batch)
+Starting step 190
+Running Session
+Completed Session
+2020-07-25 03:12:00.038227: step 190, loss = 0.31 (1.7 images/sec; 2.344 sec/batch)
+Starting step 191
+Running Session
+Completed Session
+2020-07-25 03:12:02.188096: step 191, loss = 0.39 (1.9 images/sec; 2.149 sec/batch)
+Starting step 192
+Running Session
+Completed Session
+2020-07-25 03:12:04.260655: step 192, loss = 0.31 (1.9 images/sec; 2.072 sec/batch)
+Starting step 193
+Running Session
+Completed Session
+2020-07-25 03:12:06.427138: step 193, loss = 0.38 (1.8 images/sec; 2.166 sec/batch)
+Starting step 194
+Running Session
+Completed Session
+2020-07-25 03:12:08.608621: step 194, loss = 0.34 (1.8 images/sec; 2.181 sec/batch)
+Starting step 195
+Running Session
+Completed Session
+2020-07-25 03:12:10.829441: step 195, loss = 0.35 (1.8 images/sec; 2.220 sec/batch)
+Starting step 196
+Running Session
+Completed Session
+2020-07-25 03:12:12.993275: step 196, loss = 0.32 (1.8 images/sec; 2.163 sec/batch)
+Starting step 197
+Running Session
+Completed Session
+2020-07-25 03:12:15.246759: step 197, loss = 0.35 (1.8 images/sec; 2.253 sec/batch)
+Starting step 198
+Running Session
+Completed Session
+2020-07-25 03:12:17.474372: step 198, loss = 0.32 (1.8 images/sec; 2.227 sec/batch)
+Starting step 199
+Running Session
+Completed Session
+2020-07-25 03:12:19.580372: step 199, loss = 0.36 (1.9 images/sec; 2.106 sec/batch)
+Starting step 200
+Running Session
+Completed Session
+2020-07-25 03:12:21.719186: step 200, loss = 0.34 (1.9 images/sec; 2.138 sec/batch)
+Saving checkpoint
+Checkpoint saved at ./log_pretrain///train/model.ckpt
+Starting step 201
+Running Session
+Completed Session
+2020-07-25 03:12:24.196098: step 201, loss = 0.29 (1.9 images/sec; 2.143 sec/batch)
+Starting step 202
+Running Session
+Completed Session
+2020-07-25 03:12:26.624241: step 202, loss = 0.33 (1.6 images/sec; 2.428 sec/batch)
+Starting step 203
+Running Session
+Completed Session
+2020-07-25 03:12:28.707291: step 203, loss = 0.33 (1.9 images/sec; 2.083 sec/batch)
+Starting step 204
+Running Session
+Completed Session
+2020-07-25 03:12:30.916010: step 204, loss = 0.33 (1.8 images/sec; 2.208 sec/batch)
+Starting step 205
+Running Session
+Completed Session
+2020-07-25 03:12:33.015521: step 205, loss = 0.28 (1.9 images/sec; 2.099 sec/batch)
+Starting step 206
+Running Session
+Completed Session
+2020-07-25 03:12:35.186797: step 206, loss = 0.34 (1.8 images/sec; 2.171 sec/batch)
+Starting step 207
+Running Session
+Completed Session
+2020-07-25 03:12:37.305243: step 207, loss = 0.28 (1.9 images/sec; 2.118 sec/batch)
+Starting step 208
+Running Session
+Completed Session
+2020-07-25 03:12:39.347545: step 208, loss = 0.31 (2.0 images/sec; 2.042 sec/batch)
+Starting step 209
+Running Session
+Completed Session
+2020-07-25 03:12:41.797257: step 209, loss = 0.30 (1.6 images/sec; 2.449 sec/batch)
+Starting step 210
+Running Session
+Completed Session
+2020-07-25 03:12:43.948157: step 210, loss = 0.34 (1.9 images/sec; 2.151 sec/batch)
+Starting step 211
+Running Session
+Completed Session
+2020-07-25 03:12:46.643879: step 211, loss = 0.29 (1.5 images/sec; 2.695 sec/batch)
+Starting step 212
+Running Session
+Completed Session
+2020-07-25 03:12:48.729962: step 212, loss = 0.29 (1.9 images/sec; 2.086 sec/batch)
+Starting step 213
+Running Session
+Completed Session
+2020-07-25 03:12:50.856345: step 213, loss = 0.35 (1.9 images/sec; 2.126 sec/batch)
+Starting step 214
+Running Session
+Completed Session
+2020-07-25 03:12:52.834238: step 214, loss = 0.29 (2.0 images/sec; 1.978 sec/batch)
+Starting step 215
+Running Session
+Completed Session
+2020-07-25 03:12:54.941888: step 215, loss = 0.33 (1.9 images/sec; 2.107 sec/batch)
+Starting step 216
+Running Session
+Completed Session
+2020-07-25 03:12:57.149218: step 216, loss = 0.33 (1.8 images/sec; 2.207 sec/batch)
+Starting step 217
+Running Session
+Completed Session
+2020-07-25 03:12:59.800893: step 217, loss = 0.35 (1.9 images/sec; 2.109 sec/batch)
+Starting step 218
+Running Session
+Completed Session
+2020-07-25 03:13:02.133471: step 218, loss = 0.30 (1.7 images/sec; 2.332 sec/batch)
+Starting step 219
+Running Session
+Completed Session
+2020-07-25 03:13:04.788576: step 219, loss = 0.30 (1.5 images/sec; 2.655 sec/batch)
+Starting step 220
+Running Session
+Completed Session
+2020-07-25 03:13:06.949216: step 220, loss = 0.28 (1.9 images/sec; 2.160 sec/batch)
+Starting step 221
+Running Session
+Completed Session
+2020-07-25 03:13:09.014153: step 221, loss = 0.32 (1.9 images/sec; 2.065 sec/batch)
+Starting step 222
+Running Session
+Completed Session
+2020-07-25 03:13:11.273520: step 222, loss = 0.30 (1.8 images/sec; 2.259 sec/batch)
+Starting step 223
+Running Session
+Completed Session
+2020-07-25 03:13:13.330435: step 223, loss = 0.31 (1.9 images/sec; 2.057 sec/batch)
+Starting step 224
+Running Session
+Completed Session
+2020-07-25 03:13:15.745467: step 224, loss = 0.34 (1.7 images/sec; 2.415 sec/batch)
+Starting step 225
+Running Session
+Completed Session
+2020-07-25 03:13:18.296907: step 225, loss = 0.35 (1.6 images/sec; 2.551 sec/batch)
+Starting step 226
+Running Session
+Completed Session
+2020-07-25 03:13:20.346418: step 226, loss = 0.29 (2.0 images/sec; 2.049 sec/batch)
+Starting step 227
+Running Session
+Completed Session
+2020-07-25 03:13:22.565140: step 227, loss = 0.32 (1.8 images/sec; 2.218 sec/batch)
+Starting step 228
+Running Session
+Completed Session
+2020-07-25 03:13:24.738840: step 228, loss = 0.30 (1.9 images/sec; 2.075 sec/batch)
+Starting step 229
+Running Session
+Completed Session
+2020-07-25 03:13:26.886249: step 229, loss = 0.32 (1.9 images/sec; 2.147 sec/batch)
+Starting step 230
+Running Session
+Completed Session
+2020-07-25 03:13:28.803352: step 230, loss = 0.30 (2.1 images/sec; 1.917 sec/batch)
+Starting step 231
+Running Session
+Completed Session
+2020-07-25 03:13:31.077284: step 231, loss = 0.30 (1.8 images/sec; 2.274 sec/batch)
+Starting step 232
+Running Session
+Completed Session
+2020-07-25 03:13:33.396130: step 232, loss = 0.27 (1.7 images/sec; 2.318 sec/batch)
+Starting step 233
+Running Session
+Completed Session
+2020-07-25 03:13:35.544721: step 233, loss = 0.31 (1.9 images/sec; 2.148 sec/batch)
+Starting step 234
+Running Session
+Completed Session
+2020-07-25 03:13:37.774040: step 234, loss = 0.31 (1.8 images/sec; 2.229 sec/batch)
+Starting step 235
+Running Session
+Completed Session
+2020-07-25 03:13:39.935570: step 235, loss = 0.29 (1.9 images/sec; 2.161 sec/batch)
+Starting step 236
+Running Session
+Completed Session
+2020-07-25 03:13:42.372545: step 236, loss = 0.29 (1.6 images/sec; 2.437 sec/batch)
+Starting step 237
+Running Session
+Completed Session
+2020-07-25 03:13:44.930954: step 237, loss = 0.30 (1.6 images/sec; 2.558 sec/batch)
+Starting step 238
+Running Session
+Completed Session
+2020-07-25 03:13:47.165433: step 238, loss = 0.29 (1.8 images/sec; 2.234 sec/batch)
+Starting step 239
+Running Session
+Completed Session
+2020-07-25 03:13:49.564272: step 239, loss = 0.28 (1.7 images/sec; 2.398 sec/batch)
+Starting step 240
+Running Session
+Completed Session
+2020-07-25 03:13:51.989139: step 240, loss = 0.29 (1.6 images/sec; 2.424 sec/batch)
+Starting step 241
+Running Session
+Completed Session
+2020-07-25 03:13:54.171136: step 241, loss = 0.27 (1.9 images/sec; 2.157 sec/batch)
+Starting step 242
+Running Session
+Completed Session
+2020-07-25 03:13:56.367797: step 242, loss = 0.27 (1.8 images/sec; 2.196 sec/batch)
+Starting step 243
+Running Session
+Completed Session
+2020-07-25 03:13:58.486593: step 243, loss = 0.29 (1.9 images/sec; 2.118 sec/batch)
+Starting step 244
+Running Session
+Completed Session
+2020-07-25 03:14:00.971639: step 244, loss = 0.27 (1.6 images/sec; 2.485 sec/batch)
+Starting step 245
+Running Session
+Completed Session
+2020-07-25 03:14:03.480088: step 245, loss = 0.27 (1.6 images/sec; 2.508 sec/batch)
+Starting step 246
+Running Session
+Completed Session
+2020-07-25 03:14:05.694709: step 246, loss = 0.28 (1.8 images/sec; 2.214 sec/batch)
+Starting step 247
+Running Session
+Completed Session
+2020-07-25 03:14:08.043273: step 247, loss = 0.28 (1.7 images/sec; 2.348 sec/batch)
+Starting step 248
+Running Session
+Completed Session
+2020-07-25 03:14:10.072608: step 248, loss = 0.30 (2.0 images/sec; 2.029 sec/batch)
+Starting step 249
+Running Session
+Completed Session
+2020-07-25 03:14:12.448250: step 249, loss = 0.27 (1.7 images/sec; 2.375 sec/batch)
+Starting step 250
+Running Session
+Completed Session
+2020-07-25 03:14:14.865563: step 250, loss = 0.27 (1.7 images/sec; 2.417 sec/batch)
+Saving checkpoint
+Checkpoint saved at ./log_pretrain///train/model.ckpt
+Starting step 251
+Running Session
+Completed Session
+2020-07-25 03:14:17.480819: step 251, loss = 0.27 (1.9 images/sec; 2.073 sec/batch)
+Starting step 252
+Running Session
+Completed Session
+2020-07-25 03:14:20.078096: step 252, loss = 0.27 (1.5 images/sec; 2.597 sec/batch)
+Starting step 253
+Running Session
+Completed Session
+2020-07-25 03:14:22.109062: step 253, loss = 0.25 (2.0 images/sec; 2.031 sec/batch)
+Starting step 254
+Running Session
+Completed Session
+2020-07-25 03:14:24.142506: step 254, loss = 0.27 (2.0 images/sec; 2.033 sec/batch)
+Starting step 255
+Running Session
+Completed Session
+2020-07-25 03:14:26.199442: step 255, loss = 0.28 (1.9 images/sec; 2.057 sec/batch)
+Starting step 256
+Running Session
+Completed Session
+2020-07-25 03:14:28.467517: step 256, loss = 0.27 (1.8 images/sec; 2.268 sec/batch)
+Starting step 257
+Running Session
+Completed Session
+2020-07-25 03:14:30.672824: step 257, loss = 0.26 (1.8 images/sec; 2.205 sec/batch)
+Starting step 258
+Running Session
+Completed Session
+2020-07-25 03:14:32.839692: step 258, loss = 0.28 (1.8 images/sec; 2.167 sec/batch)
+Starting step 259
+Running Session
+Completed Session
+2020-07-25 03:14:35.026551: step 259, loss = 0.28 (1.8 images/sec; 2.187 sec/batch)
+Starting step 260
+Running Session
+Completed Session
+2020-07-25 03:14:37.151510: step 260, loss = 0.27 (1.9 images/sec; 2.125 sec/batch)
+Starting step 261
+Running Session
+Completed Session
+2020-07-25 03:14:39.309162: step 261, loss = 0.24 (1.9 images/sec; 2.157 sec/batch)
+Starting step 262
+Running Session
+Completed Session
+2020-07-25 03:14:41.586246: step 262, loss = 0.27 (1.8 images/sec; 2.277 sec/batch)
+Starting step 263
+Running Session
+Completed Session
+2020-07-25 03:14:43.945269: step 263, loss = 0.26 (1.7 images/sec; 2.359 sec/batch)
+Starting step 264
+Running Session
+Completed Session
+2020-07-25 03:14:46.156421: step 264, loss = 0.26 (1.8 images/sec; 2.211 sec/batch)
+Starting step 265
+Running Session
+Completed Session
+2020-07-25 03:14:48.754360: step 265, loss = 0.27 (1.5 images/sec; 2.598 sec/batch)
+Starting step 266
+Running Session
+Completed Session
+2020-07-25 03:14:50.814566: step 266, loss = 0.26 (1.9 images/sec; 2.060 sec/batch)
+Starting step 267
+Running Session
+Completed Session
+2020-07-25 03:14:53.303516: step 267, loss = 0.27 (1.6 images/sec; 2.489 sec/batch)
+Starting step 268
+Running Session
+Completed Session
+2020-07-25 03:14:55.457245: step 268, loss = 0.27 (1.9 images/sec; 2.153 sec/batch)
+Starting step 269
+Running Session
+Completed Session
+2020-07-25 03:14:57.623346: step 269, loss = 0.28 (1.8 images/sec; 2.166 sec/batch)
+Starting step 270
+Running Session
+Completed Session
+2020-07-25 03:14:59.746520: step 270, loss = 0.25 (1.9 images/sec; 2.123 sec/batch)
+Starting step 271
+Running Session
+Completed Session
+2020-07-25 03:15:02.162094: step 271, loss = 0.28 (1.7 images/sec; 2.415 sec/batch)
+Starting step 272
+Running Session
+Completed Session
+2020-07-25 03:15:04.503965: step 272, loss = 0.25 (1.7 images/sec; 2.342 sec/batch)
+Starting step 273
+Running Session
+Completed Session
+2020-07-25 03:15:06.570235: step 273, loss = 0.28 (1.9 images/sec; 2.066 sec/batch)
+Starting step 274
+Running Session
+Completed Session
+2020-07-25 03:15:08.806984: step 274, loss = 0.26 (1.8 images/sec; 2.236 sec/batch)
+Starting step 275
+Running Session
+Completed Session
+2020-07-25 03:15:10.910940: step 275, loss = 0.27 (1.9 images/sec; 2.104 sec/batch)
+Starting step 276
+Running Session
+Completed Session
+2020-07-25 03:15:12.985353: step 276, loss = 0.27 (1.9 images/sec; 2.074 sec/batch)
+Starting step 277
+Running Session
+Completed Session
+2020-07-25 03:15:15.370549: step 277, loss = 0.25 (1.7 images/sec; 2.385 sec/batch)
+Starting step 278
+Running Session
+Completed Session
+2020-07-25 03:15:17.668915: step 278, loss = 0.25 (1.7 images/sec; 2.298 sec/batch)
+Starting step 279
+Running Session
+Completed Session
+2020-07-25 03:15:20.016119: step 279, loss = 0.26 (1.7 images/sec; 2.347 sec/batch)
+Starting step 280
+Running Session
+Completed Session
+2020-07-25 03:15:22.291759: step 280, loss = 0.27 (1.8 images/sec; 2.275 sec/batch)
+Starting step 281
+Running Session
+Completed Session
+2020-07-25 03:15:24.662655: step 281, loss = 0.26 (1.7 images/sec; 2.371 sec/batch)
+Starting step 282
+Running Session
+Completed Session
+2020-07-25 03:15:26.858137: step 282, loss = 0.28 (1.8 images/sec; 2.195 sec/batch)
+Starting step 283
+Running Session
+Completed Session
+2020-07-25 03:15:28.924820: step 283, loss = 0.25 (1.9 images/sec; 2.066 sec/batch)
+Starting step 284
+Running Session
+Completed Session
+2020-07-25 03:15:30.963921: step 284, loss = 0.26 (2.0 images/sec; 2.039 sec/batch)
+Starting step 285
+Running Session
+Completed Session
+2020-07-25 03:15:33.478194: step 285, loss = 0.28 (1.6 images/sec; 2.514 sec/batch)
+Starting step 286
+Running Session
+Completed Session
+2020-07-25 03:15:35.634334: step 286, loss = 0.25 (1.9 images/sec; 2.156 sec/batch)
+Starting step 287
+Running Session
+Completed Session
+2020-07-25 03:15:37.799906: step 287, loss = 0.28 (1.8 images/sec; 2.165 sec/batch)
+Starting step 288
+Running Session
+Completed Session
+2020-07-25 03:15:39.802349: step 288, loss = 0.26 (2.0 images/sec; 2.002 sec/batch)
+Starting step 289
+Running Session
+Completed Session
+2020-07-25 03:15:41.853446: step 289, loss = 0.27 (2.0 images/sec; 2.051 sec/batch)
+Starting step 290
+Running Session
+Completed Session
+2020-07-25 03:15:44.007347: step 290, loss = 0.26 (1.9 images/sec; 2.154 sec/batch)
+Starting step 291
+Running Session
+Completed Session
+2020-07-25 03:15:46.354365: step 291, loss = 0.27 (1.7 images/sec; 2.347 sec/batch)
+Starting step 292
+Running Session
+Completed Session
+2020-07-25 03:15:48.680748: step 292, loss = 0.27 (1.7 images/sec; 2.326 sec/batch)
+Starting step 293
+Running Session
+Completed Session
+2020-07-25 03:15:50.912125: step 293, loss = 0.28 (1.8 images/sec; 2.231 sec/batch)
+Starting step 294
+Running Session
+Completed Session
+2020-07-25 03:15:53.183374: step 294, loss = 0.26 (1.8 images/sec; 2.271 sec/batch)
+Starting step 295
+Running Session
+Completed Session
+2020-07-25 03:15:55.776181: step 295, loss = 0.31 (1.5 images/sec; 2.592 sec/batch)
+Starting step 296
+Running Session
+Completed Session
+2020-07-25 03:15:57.865694: step 296, loss = 0.26 (1.9 images/sec; 2.089 sec/batch)
+Starting step 297
+Running Session
+Completed Session
+2020-07-25 03:15:59.848721: step 297, loss = 0.27 (2.0 images/sec; 1.983 sec/batch)
+Starting step 298
+Running Session
+Completed Session
+2020-07-25 03:16:02.199373: step 298, loss = 0.29 (1.7 images/sec; 2.350 sec/batch)
+Starting step 299
+Running Session
+Completed Session
+2020-07-25 03:16:04.479599: step 299, loss = 0.26 (1.8 images/sec; 2.280 sec/batch)
+Saving checkpoint
+Checkpoint saved at ./log_pretrain///train/model.ckpt
