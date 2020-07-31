@@ -60,7 +60,6 @@ class ModelSkeleton:
   def __init__(self, mc):
     self.mc = mc
     print("Model Skeleton called")
-    print("Did I get here - Model Skeleton")
     print("Model Skeleton Batch size: ", mc.BATCH_SIZE)
     
     # a scalar tensor in range (0, 1]. Usually set to 0.5 in training phase and

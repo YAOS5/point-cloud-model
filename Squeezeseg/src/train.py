@@ -32,15 +32,15 @@ tf.compat.v1.app.flags.DEFINE_string('image_set', 'train',
 tf.compat.v1.app.flags.DEFINE_string('train_dir', '/tmp/bichen/logs/squeezeseg/train',
                             """Directory where to write event logs """
                             """and checkpoint.""")
-tf.compat.v1.app.flags.DEFINE_integer('max_steps', 200,
+tf.compat.v1.app.flags.DEFINE_integer('max_steps', 100,
                             """Maximum number of batches to run.""")
 tf.compat.v1.app.flags.DEFINE_string('net', 'squeezeSeg',
                            """Neural net architecture. """)
-tf.compat.v1.app.flags.DEFINE_string('pretrained_model_path', './data/SqueezeNet/squeezenet_v1.1.pkl',
+tf.compat.v1.app.flags.DEFINE_string('pretrained_model_path', '',
                            """Path to the pretrained model.""")
-tf.compat.v1.app.flags.DEFINE_integer('summary_step', 50,
+tf.compat.v1.app.flags.DEFINE_integer('summary_step', 10,
                             """Number of steps to save summary.""")
-tf.compat.v1.app.flags.DEFINE_integer('checkpoint_step', 50,
+tf.compat.v1.app.flags.DEFINE_integer('checkpoint_step', 10,
                             """Number of steps to save summary.""")
 tf.compat.v1.app.flags.DEFINE_string('gpu', '0', """gpu id.""")
 
@@ -51,6 +51,21 @@ def train():
 
   os.environ['CUDA_VISIBLE_DEVICES'] = ""
 
+  # Check for eager execution. Source: https://mlfromscratch.com/tensorflow-2/#/
+  if(tf.executing_eagerly()):
+      print('Eager execution is enabled (running operations immediately)\n')
+      print(('Turn eager execution off by running: \n{0}\n{1}').format('' \
+          'from tensorflow.python.framework.ops import disable_eager_execution', \
+          'disable_eager_execution()'))
+  else:
+      print('You are not running eager execution. TensorFlow version >= 2.0.0' \
+            'has eager execution enabled by default.')
+      print(('Turn on eager execution by running: \n\n{0}\n\nOr upgrade '\
+             'your tensorflow version by running:\n\n{1}').format(
+             'tf.compat.v1.enable_eager_execution()',
+             '!pip install --upgrade tensorflow\n' \
+             '!pip install --upgrade tensorflow-gpu'))
+
   with tf.Graph().as_default():
 
     assert FLAGS.net == 'squeezeSeg', \
@@ -59,11 +74,13 @@ def train():
     if FLAGS.net == 'squeezeSeg':
       mc = kitti_squeezeSeg_config()
       mc.PRETRAINED_MODEL_PATH = FLAGS.pretrained_model_path
-      #mc.LOAD_PRETRAINED_MODEL = False
+
       print("Preloaded model: ", mc.LOAD_PRETRAINED_MODEL)
       print("Creating model ... ")
+      
       model = SqueezeSeg(mc)
-      print("model created")
+
+      print("Model created")
       
     imdb = kitti(FLAGS.image_set, FLAGS.data_path, mc)
 

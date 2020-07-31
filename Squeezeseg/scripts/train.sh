@@ -4,8 +4,8 @@ find . -type f -name "*.pyc" -delete
 export GPUID=0
 export NET="squeezeSeg"
 export IMAGE_SET="train"
-export LOG_DIR="./log_train_single/"
-export STEPS=50
+export LOG_DIR=
+export STEPS=0
 
 if [ $# -eq 0 ]
 then
@@ -64,12 +64,12 @@ echo "$logdir"
 
 python ./src/train.py \
   --dataset=KITTI \
-  --pretrained_model_path='./data/SqueezeNet/squeezenet_v1.1.pkl' \
+  --pretrained_model_path="./data/SqueezeNet/squeezenet_v1.1.pkl" \
   --data_path=./data/gazebo_data \
   --image_set=$IMAGE_SET \
   --train_dir="$logdir/train" \
   --net=$NET \
   --max_steps=$STEPS \
-  --summary_step=50 \
-  --checkpoint_step=50 \
+  --summary_step=10 \
+  --checkpoint_step=10 \
   --gpu=$GPUID

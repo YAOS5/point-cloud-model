@@ -25,7 +25,7 @@ from nets import *
 FLAGS = tf.compat.v1.app.flags.FLAGS
 
 tf.compat.v1.app.flags.DEFINE_string(
-        'checkpoint', './log_train_single/train/model.ckpt-199',
+        'checkpoint', './data/SqueezeSeg/model.ckpt-23000',
         """Path to the model parameter file.""")
 tf.compat.v1.app.flags.DEFINE_string(
         'input_path', './data/samples/*',

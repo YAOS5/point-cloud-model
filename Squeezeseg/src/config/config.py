@@ -8,6 +8,7 @@ import numpy as np
 from easydict import EasyDict as edict
 
 def base_model_config(dataset='KITTI'):
+  print("Generating configuration settings - config.py")
   assert dataset.upper()=='KITTI', \
       'Currently only support KITTI dataset'
 
@@ -55,7 +56,7 @@ def base_model_config(dataset='KITTI'):
   )
 
   # Probability to keep a node in dropout
-  cfg.KEEP_PROB = 0.8
+  cfg.KEEP_PROB = 0.5
 
   # image width
   cfg.IMAGE_WIDTH = 224
@@ -70,10 +71,10 @@ def base_model_config(dataset='KITTI'):
   cfg.NUM_SECTOR = 90
 
   # maximum distance of a measurement
-  cfg.MAX_DIST = 10
+  cfg.MAX_DIST = 100
 
   # batch size
-  cfg.BATCH_SIZE = 1
+  cfg.BATCH_SIZE = 20
 
   # Pixel mean values (BGR order) as a (1, 1, 3) array. Below is the BGR mean
   # of VGG16
@@ -90,7 +91,7 @@ def base_model_config(dataset='KITTI'):
   cfg.LR_DECAY_FACTOR = 0.1
 
   # learning rate
-  cfg.LEARNING_RATE = 0.005
+  cfg.LEARNING_RATE = 0.0005
 
   # momentum
   cfg.MOMENTUM = 0.9
@@ -102,7 +103,7 @@ def base_model_config(dataset='KITTI'):
   cfg.LOAD_PRETRAINED_MODEL = True
 
   # path to load the pre-trained model
-  cfg.PRETRAINED_MODEL_PATH = './data/SqueezeNet/squeezenet_v1.1.pkl'
+  cfg.PRETRAINED_MODEL_PATH = ''
 
   # print log to console in debug mode
   cfg.DEBUG_MODE = False

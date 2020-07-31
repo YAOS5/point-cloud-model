@@ -37,10 +37,15 @@ class SqueezeSeg(ModelSkeleton):
 
     mc = self.mc
     if mc.LOAD_PRETRAINED_MODEL:
+      print("Loading model from ", mc.PRETRAINED_MODEL_PATH)
       assert tf.io.gfile.exists(mc.PRETRAINED_MODEL_PATH), \
-          'Cannot find pretrained model at the given path:' \
-          '  {}'.format(mc.PRETRAINED_MODEL_PATH)
+          "Cannot find pretrained model at the given path:" \
+          "  {}".format(mc.PRETRAINED_MODEL_PATH)
+      
       self.caffemodel_weight = joblib.load(mc.PRETRAINED_MODEL_PATH)
+
+    print(mc.LOAD_PRETRAINED_MODEL)
+    print(mc.PRETRAINED_MODEL_PATH)
       
     conv1 = self._conv_layer(
         'conv1', self.lidar_input, filters=64, size=3, stride=2,
@@ -106,11 +111,14 @@ class SqueezeSeg(ModelSkeleton):
         thetas=[mc.BILATERAL_THETA_A, mc.BILATERAL_THETA_R],
         sizes=[mc.LCN_HEIGHT, mc.LCN_WIDTH], stride=1)
 
-    self.output_prob = self._recurrent_crf_layer(
-        'recurrent_crf', conv14, bilateral_filter_weights, 
-        sizes=[mc.LCN_HEIGHT, mc.LCN_WIDTH], num_iterations=mc.RCRF_ITER,
-        padding='SAME'
-    )
+    # Bypass RCF
+    self.output_prob = conv14
+    
+    #self.output_prob = self._recurrent_crf_layer(
+    #    'recurrent_crf', conv14, bilateral_filter_weights, 
+    #    sizes=[mc.LCN_HEIGHT, mc.LCN_WIDTH], num_iterations=mc.RCRF_ITER,
+    #    padding='SAME'
+    #)
 
   def _fire_layer(self, layer_name, inputs, s1x1, e1x1, e3x3, stddev=0.001,
       freeze=False):

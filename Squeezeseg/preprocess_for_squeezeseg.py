@@ -39,16 +39,16 @@ def lidar_to_2d_front_view(points, W=512, H=64, C=5, phi_range=60, theta_range=4
     phi[phi>=W] = W -1
 
     #Let intensity be inversely proportional to distance squared for visualisation
-    range = max(z_lidar) - min(z_lidar)
-    intensity = (1- (z_lidar/range)) * 255
+    z_range = max(z_lidar) - min(z_lidar)
+    intensity = (1- ((z_lidar-min(z_lidar))/z_range)**2)
 
     depth_map = np.zeros((H, W, C+1))#+255
     depth_map[theta, phi, 0] = x_lidar
     depth_map[theta, phi, 1] = y_lidar
     depth_map[theta, phi, 2] = z_lidar
-    depth_map[theta, phi, 3] = 1
+    depth_map[theta, phi, 3] = intensity
     depth_map[theta, phi, 4] = d
-    depth_map[theta, phi, 5] = 1-labels  #Temporary fix to swap labels: True = Obstacle
+    depth_map[theta, phi, 5] = 1-labels  #Swap labels: True = Obstacle
 
     return depth_map
     
@@ -88,6 +88,6 @@ if __name__ == "__main__":
 
     #Visualise
     if args.vis == True:
-        plt.scatter(depth_map[:,:,5], cmap='gray')
+        plt.imshow(depth_map[:,:,5], cmap='gray')
         plt.show()
     
