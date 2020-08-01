@@ -1,6 +1,7 @@
 .DS_Store
 *.pyc
-./Squeezeseg/data/original_data_set/
-./Squeezeseg/data/lidar_2d/
-./Squeezeseg/data/lidar_2d.tgz
-./Squeezeseg/data/wget-log
+
+Squeezeseg/data/original_data_set/
+Squeezeseg/data/lidar_2d/
+Squeezeseg/data/lidar_2d.tgz
+Squeezeseg/data/wget-log
