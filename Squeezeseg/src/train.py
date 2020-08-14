@@ -22,6 +22,8 @@ from imdb import kitti
 from utils.util import *
 from nets import *
 
+print(tf.__version__)
+
 FLAGS = tf.compat.v1.app.flags.FLAGS
 
 tf.compat.v1.app.flags.DEFINE_string('dataset', 'KITTI',
@@ -51,7 +53,7 @@ def train():
     assert FLAGS.dataset == 'KITTI', \
         'Currently only support KITTI dataset'
 
-    os.environ['CUDA_VISIBLE_DEVICES'] = ""
+    #os.environ['CUDA_VISIBLE_DEVICES'] = ""
 
     # Check for eager execution. Source: https://mlfromscratch.com/tensorflow-2/#/
     if(tf.executing_eagerly()):
@@ -135,7 +137,7 @@ def train():
         init = tf.compat.v1.initialize_all_variables()
 
         sess = tf.compat.v1.Session(config=tf.compat.v1.ConfigProto(
-            allow_soft_placement=True, device_count={'GPU': 0}))
+            allow_soft_placement=True, device_count={'GPU': 1}))
         sess.run(init)
 
         summary_writer = tf.compat.v1.summary.FileWriter(
@@ -253,7 +255,7 @@ def main(argv=None):  # pylint: disable=unused-argument
     tf.io.gfile.makedirs(FLAGS.train_dir)
 
     from tensorflow.python.client import device_lib
-    # print(device_lib.list_local_devices())
+    print(device_lib.list_local_devices())
 
     train()
 

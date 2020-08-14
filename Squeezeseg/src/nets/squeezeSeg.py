@@ -112,13 +112,13 @@ class SqueezeSeg(ModelSkeleton):
         sizes=[mc.LCN_HEIGHT, mc.LCN_WIDTH], stride=1)
 
     # Bypass RCF
-    self.output_prob = conv14
+    #self.output_prob = conv14
     
-    #self.output_prob = self._recurrent_crf_layer(
-    #    'recurrent_crf', conv14, bilateral_filter_weights, 
-    #    sizes=[mc.LCN_HEIGHT, mc.LCN_WIDTH], num_iterations=mc.RCRF_ITER,
-    #    padding='SAME'
-    #)
+    self.output_prob = self._recurrent_crf_layer(
+        'recurrent_crf', conv14, bilateral_filter_weights, 
+        sizes=[mc.LCN_HEIGHT, mc.LCN_WIDTH], num_iterations=mc.RCRF_ITER,
+        padding='SAME'
+    )
 
   def _fire_layer(self, layer_name, inputs, s1x1, e1x1, e3x3, stddev=0.001,
       freeze=False):

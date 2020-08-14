@@ -74,7 +74,7 @@ def base_model_config(dataset='KITTI'):
   cfg.MAX_DIST = 100
 
   # batch size
-  cfg.BATCH_SIZE = 20
+  cfg.BATCH_SIZE = 32
 
   # Pixel mean values (BGR order) as a (1, 1, 3) array. Below is the BGR mean
   # of VGG16

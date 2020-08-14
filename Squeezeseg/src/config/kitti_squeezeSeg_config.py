@@ -17,7 +17,7 @@ def kitti_squeezeSeg_config():
   mc.NUM_CLASS          = len(mc.CLASSES)
   mc.CLS_2_ID           = dict(zip(mc.CLASSES, range(len(mc.CLASSES))))
   # controlling the relative importance of weights
-  mc.CLS_LOSS_WEIGHT    = np.array([1.0, 1.0])
+  mc.CLS_LOSS_WEIGHT    = np.array([1.0/15.0, 1.0])
   mc.CLS_COLOR_MAP      = np.array([[ 0.00,  0.00,  0.00],
                                     [ 0.12,  0.56,  0.37]])
 
@@ -41,12 +41,12 @@ def kitti_squeezeSeg_config():
 
   # Loss coefficient
   mc.CLS_LOSS_COEF      = 15.0
-  mc.WEIGHT_DECAY       = 0.0001
-  mc.LEARNING_RATE      = 0.01
-  mc.DECAY_STEPS        = 10000
+  mc.WEIGHT_DECAY       = 0.00001
+  mc.LEARNING_RATE      = 0.0001
+  mc.DECAY_STEPS        = 100
   mc.MAX_GRAD_NORM      = 1.0
   mc.MOMENTUM           = 0.9
-  mc.LR_DECAY_FACTOR    = 0.5
+  mc.LR_DECAY_FACTOR    = 0.1
 
   mc.DATA_AUGMENTATION  = True
   mc.RANDOM_FLIPPING    = True
