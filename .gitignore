@@ -5,3 +5,6 @@ Squeezeseg/data/original_data_set/
 Squeezeseg/data/lidar_2d/
 Squeezeseg/data/lidar_2d.tgz
 Squeezeseg/data/wget-log
+venv/*
+.idea/*
+.vscode/*

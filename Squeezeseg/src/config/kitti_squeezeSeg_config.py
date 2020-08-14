@@ -16,17 +16,22 @@ def kitti_squeezeSeg_config():
   mc.CLASSES            = ['background', 'car']
   mc.NUM_CLASS          = len(mc.CLASSES)
   mc.CLS_2_ID           = dict(zip(mc.CLASSES, range(len(mc.CLASSES))))
+  # controlling the relative importance of weights
   mc.CLS_LOSS_WEIGHT    = np.array([1.0, 1.0])
   mc.CLS_COLOR_MAP      = np.array([[ 0.00,  0.00,  0.00],
                                     [ 0.12,  0.56,  0.37]])
 
 
   mc.BATCH_SIZE         = 32
+  # how many pixel long our projection is
   mc.AZIMUTH_LEVEL      = 512
+  # how many pixel tall our projection is
   mc.ZENITH_LEVEL       = 64
 
+  # Conditional Random Field
   mc.LCN_HEIGHT         = 3
   mc.LCN_WIDTH          = 5
+  # How many times it is passed through the RNN
   mc.RCRF_ITER          = 3
   mc.BILATERAL_THETA_A  = np.array([.9, .9, .6, .6])
   mc.BILATERAL_THETA_R  = np.array([.015, .015, .01, .01])
@@ -34,6 +39,7 @@ def kitti_squeezeSeg_config():
   mc.ANG_THETA_A        = np.array([.9, .9, .6, .6])
   mc.ANG_FILTER_COEF    = 0.02
 
+  # Loss coefficient
   mc.CLS_LOSS_COEF      = 15.0
   mc.WEIGHT_DECAY       = 0.0001
   mc.LEARNING_RATE      = 0.01
