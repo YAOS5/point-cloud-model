@@ -7,6 +7,9 @@ https://docs.google.com/document/d/1vJPzt-ueUC59HdsiSdols9JLYZxq54CYHy8Qy2ojj90/
 Image Data from Rover:
 https://drive.google.com/drive/folders/1JC-nvxDzH2Rm-_3Y_BBSunYMY4qi2NVp
 
+PPTK point cloud annotator:
+https://github.com/Sheepiyoo/pptk-pc-annotation
+
 ## References
 SqueezeNet implementation in Keras
 https://github.com/DT42/squeezenet_demo/blob/master/model.py
