@@ -1,4 +1,4 @@
 easydict==1.6
 joblib==0.10.3
-tensorflow==2.1.0
+tensorflow==2.5.1
 pptk
